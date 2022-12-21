@@ -1,0 +1,97 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.breadcrumb  li {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.teacozy {
+    max-height: 50px;
+    display: inline-flex;
+}
+a {
+    color: seashell;
+}
+
+.container {
+    background-image: url("./images/img-mission-background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    flex: 2 1;
+}
+
+.subheader {
+    background-color: black;
+    width: 1200px;
+    line-height: 15px;
+    flex: 1 1;
+}
+
+.album {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.photo img {
+   max-height: 200px;
+   width: 300px;
+}
+
+.other-container {
+    background-image: url("./images/img-locations-background.jpg");
+    height: 600px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.child {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    line-height: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contact {
+    max-height: 200px;
+    line-height: 65px;
+    margin-bottom: 120px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 10px;;
+}
+
+
+
+
+
+
+
+
+
+
+
